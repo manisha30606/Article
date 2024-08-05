@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NL:wght@100..400&family=Playwrite+NO:wght@100..400&family=Playwrite+PL:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+/* 
+body {
+  
+    background-image: linear-gradient(120deg, #F56EB3 0%, #460C68 100%);
+    background-repeat: no-repeat;
+   
+} */
+
+.blog-container {
+    background-image: linear-gradient(120deg, #F56EB3 0%, #460C68 100%);
+    background-repeat: no-repeat;
+    width: 60%;
+    margin: 4rem auto;
+    border: 1px solid #cea4ba;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.blog-title {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: #460C68;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+cursor: pointer;
+    text-align: center;
+    color: #F56EB3;
+    background-color: #460C68;
+}
+
+.btn-new-article {
+    /* background-color: #F56EB3;
+    color: #460C68; */
+    font-weight: 700;
+
+}
+
+.article-card {
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.article-body {
+    padding: 15px;
+}
+
+.article-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #460C68;
+}
+
+.article-meta {
+    color: #505050;
+    margin-bottom: 10px;
+}
+
+.article-description {
+    margin-bottom: 20px;
+}
+
+/* .btn-read-more {
+    color: #F56EB3;
+    background-color: #460C68;
+}
+
+.btn-edit {
+    color: #F56EB3;
+    background-color: #460C68;
+} */
+
+.form-article {
+    display: inline;
+}
+
+/* .btn-delete {
+    color: #F56EB3;
+    background-color: #460C68;
+} */
+.form-edit-article {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background: none;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+
+  @media screen and (max-width:772px) {
+    .blog-container {
+        width: 90%;
+    }
+    .btn {
+        padding: 6px 10px;
+        margin: 2px;
+    }
+  }
